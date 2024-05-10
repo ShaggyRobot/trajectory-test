@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  width: 250px;
+  height: fit-content;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+  &__btn_block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  &__input {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+    border-radius: .25rem;
+    background-color: wheat;
+    padding-left: 0.5rem;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

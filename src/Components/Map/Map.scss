@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+
+.map-wrapper {
+  flex-grow: 1;
+  height: auto;
+  min-width: 540px;
+
+  @include mobile {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: calc(100vh - 2rem);
+  position: sticky;
+  top: 1rem;
+  border-radius: 0.5rem;
+
+  @include mobile {
+    height: 70vh;
+  }
+}
+
+.car-icon {
+  transform: translate(-100px, -20px);
+}

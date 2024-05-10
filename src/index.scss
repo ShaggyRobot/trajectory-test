@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  font-family: system-ui;
+  padding: 1rem;
+}
+
+
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+  background: lightblue;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: darkslategray;
+}
+
+button {
+  border: none;
+  background: lightblue;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
